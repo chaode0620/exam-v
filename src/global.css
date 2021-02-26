@@ -1,0 +1,21 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body { background-color: #f7f8fa; }
+
+.tl { text-align: left !important; }
+.tc { text-align: center !important; }
+.tr { text-align: right !important; }
+.tj { text-align: justify !important; }
+
+.mt{ margin-top: 20px ; }
+.mb{ margin-bottom: 20px ; }
+.ml{ margin-left: 20px ; }
+.mr{ margin-right: 20px ; }
+
+.pt{ padding-top: 20px ; }
+.pb{ padding-bottom: 20px ; }
+.pl{ padding-left: 20px ; }
+.pr{ padding-right: 20px ; }
+
+.success{ color: #07c160; }
+.error { color: #ee0a24; }
