@@ -99,7 +99,7 @@ export default {
 			if (this.topic.footAnswer || this.topic.footAnswer === 0) return
 
 			this.radio = index
-			this.$emit('submitAnswer', ['A', 'B', 'C', 'D'][index], this.radio, this.index)
+			this.$emit('submitAnswer', ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I'][index], this.radio, this.index)
 		},
 
 		clickCheckbox (index) {
@@ -118,7 +118,7 @@ export default {
 			let answer = ''
 			if (this.checkbox.length > 0) {
 				this.checkbox.sort()
-				const answers = this.checkbox.map(item => { return ['A', 'B', 'C', 'D'][item] })
+				const answers = this.checkbox.map(item => { return ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I'][item] })
 				answer = answers.join('')
 			}
 			this.$emit('submitAnswer', answer, this.checkbox, this.index)
